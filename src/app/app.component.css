@@ -1,0 +1,52 @@
+.wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dots {
+    position: relative;
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+.dot {
+    margin: 5px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.c-blue {
+    background-color: blue;
+}
+
+.c-green {
+    background-color: green;
+}
+
+.c-red {
+    background-color: red;
+}
+
+.c-yellow {
+    background-color: yellow;
+}
+
+.count {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.turned-left {
+    margin-left: 10px;
+}
+
+.turned-right {
+    margin-right: 10px;
+}
