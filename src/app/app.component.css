@@ -1,5 +1,5 @@
 .wrapper {
-    width: 1366px;
+    width: 1600px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -7,22 +7,22 @@
 
 .dots {
     position: relative;
-    width: 110px;
+    width: 280px;
     height: auto;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     border-bottom: 1px solid black;
 }
 
 .dot {
     margin: 5px auto;
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
 .c-blue {
-    background-color: blue;
+    background-color: #000035;
 }
 
 .c-green {
@@ -39,6 +39,7 @@
 
 .count {
     position: absolute;
+    font-weight: 900;
     bottom: 5px;
     left: 5px;
 }
